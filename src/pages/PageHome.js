@@ -8,17 +8,17 @@ function PageHome() {
         <SafeAreaView style={styles.container}>
             <Card style={styles.card}>
                 <Card.Content style={styles.cardContent}>
-                    {/* Ícone em destaque no topo do Card */}
+
                     <View style={styles.iconContainer}>
                         <Ionicons name="compass-outline" size={48} color="#6200ee" />
                     </View>
 
-                    {/* Título em destaque */}
+
                     <Text variant="headlineSmall" style={styles.titulo}>
                         Guia do Cidadão
                     </Text>
 
-                    {/* Texto descritivo */}
+
                     <Text variant="bodyLarge" style={styles.texto}>
                         Navegue entre as abas abaixo para conferir as páginas essenciais para o cidadão brasileiro.
                     </Text>
@@ -38,10 +38,10 @@ const styles = StyleSheet.create({
         paddingVertical: 16,
     },
     cardContent: {
-        alignItems: "center", // Centraliza o ícone e os textos horizontalmente
+        alignItems: "center",
     },
     iconContainer: {
-        backgroundColor: "#ede7f6", // Fundo circular suave combinando com o ícone
+        backgroundColor: "#ede7f6",
         padding: 16,
         borderRadius: 50,
         marginBottom: 16,
